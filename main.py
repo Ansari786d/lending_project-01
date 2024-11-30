@@ -19,3 +19,23 @@
 # scenario 2 we are starting a poject from local 
 
 # 1.git init means we want git to track all the changes on this repository or folder going forward 
+
+# When we clone a remote project the origin is referring to that.
+
+# but when we start developing project on local we need to set the origin 
+
+# to do this we have a command 
+# git remote add origin my_repo_url meaning my origin to this remote(github repo)
+
+# to know where our origin point we can check by
+
+# git remote -v 
+
+# git branch  -- it will tell o which branch we are working 
+
+# if you are getting your branch as master you need to changed it to main in order to push the code to github otherise it 
+# will throw error (in github it has named "mian")
+
+# to rename 
+# git branch -M main (whatever branch we are in will named as main)
+
